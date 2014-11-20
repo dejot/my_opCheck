@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css">
+    <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+  </head>
+<body>
+<div class="contain-to-grid">
+  <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+	<ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="#">Sticky Top Bar</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  </nav>
+</div>
+
+
+
+ <div class="row">
+	<div class="small-12 columns">
+			<dl class="accordion" data-accordion="">
+				<div class="row">
+					<div class="small-10 columns">
+						  <dd class="accordion-navigation">
+						    <a href="#panel1b">Kurzdiagnose</a>
+						    <div id="panel1b" class="content active">
+								<div class="row">
+									<div class="small-4 columns">
+
+								      <label>Fachbereich
+								        <select>
+								          <option value="intensivmedizin">Intensivmedizin</option>
+								          <option value="inneremedizin">Innere Medizin</option>
+								          <option value="chirurgie">Chirurgie</option>
+								          <option value="gynaekologieundgeburtshilfe">Gynäkologie und Geburtshilfe</option>
+								          <option value="paediatrie">Pädiatrie</option>
+								          <option value="psychiatrieundpsychotherapie">Psychiatrie und Psychotherapie</option>
+								          <option value="ophthalmologie">Ophthalmologie</option>
+								          <option value="oto-rhino-laryngologie">Oto-Rhino-Laryngologie</option>
+								          <option value="dermatologieundvenereologie">Dermatologie und Venereologie</option>
+								          <option value="medizinischeradiologie">Medizinische Radiologie</option>
+								          <option value="geriatrieundsubakutepflege">Geriatrie und subakute Pflege</option>
+								          <option value="physikalischemedizinundrehabilitation">Physikalische Medizin und Rehabilitation</option>
+								          <option value="weiteretaetigkeitsbereiche">Weitere Tätigkeitsbereiche</option>
+								        </select>
+								      </label>
+
+									</div>
+									<div class="small-4 columns">
+						 			    <label>Diagnose
+								        <select>
+								          <option value="husker">Husker</option>
+								          <option value="starbuck">Starbucks</option>
+								          <option value="hotdog">Hot Dog</option>
+								          <option value="apollo">Apollo</option>
+								        </select>
+								      </label>
+									</div>
+									<div class="small-4 columns">
+						     			<label>Befund
+								        <select>
+								          <option value="husker">Husker</option>
+								          <option value="starbuck">Starbucks</option>
+								          <option value="hotdog">Hot Dog</option>
+								          <option value="apollo">Apollo</option>
+								        </select>
+								      </label>
+									</div>
+								</div>
+								<hr class="dotted">
+								<div class="row">
+									<div class="small-8 columns">
+									<p>
+										Wurde Ihnen bereits durch einen anderen Spezialisten eine operativer Eingriff empfohlen?
+									</p>
+
+
+									</div>
+									<div class="small-4 columns">
+								      <label>Bitte mit JA oder NEIN antworten:</label>
+								      <input type="radio" name="pokemon" value="ja" id="ja"><label for="pokemonRed">Ja</label>
+								      <input type="radio" name="pokemon" value="nein" id="nein"><label for="pokemonBlue">Nein</label>
+
+									</div>
+								</div>
+								<div class="row">
+									<div class="small-4 small-centered columns">
+										<a href="#panel2b" class="button kurzdiagSave">Speichern & weiter...</a>
+									</div>
+								</div>
+						    </div>
+						  </dd>
+					</div>
+					<div class="small-2 columns">
+				      <label for="checkbox1">Unvollständig</label>
+				      <label for="checkbox1" class="hidden">Vollständig</label>
+				      <i class="fa-square-o"></i>
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-10 columns">
+						  <dd class="accordion-navigation">
+						    <a href="#panel2b">Demographische Daten</a>
+						    <div id="panel2b" class="content">
+								<div class="row">
+									<div class="small-8 columns">
+										<form>
+											<fieldset>
+											 <legend>Anschrift</legend>
+											  <div class="row">
+											    <div class="small-12 columns">
+											      <label> Strasse & Nr.
+											        <input type="text" placeholder="Strasse & Nr." />
+											      </label>
+											    </div>
+											  </div>				  
+											  <div class="row">
+											    <div class="small-3 columns">
+											      <label> PLZ
+											        <input type="text" placeholder="8001" />
+											      </label>
+											     </div> 
+											     <div class="small-9 columns">
+											      <label> Ort
+											        <input type="text" placeholder="Zürich" />
+											      </label>
+											    </div>
+											  </div>				
+											  <div class="row">
+											    <div class="small-12 columns">
+											      <label> Land
+											        <input type="text" placeholder="Schweiz" />
+											      </label>
+											    </div>
+											  </div>
+											</fieldset>	
+
+											<fieldset>
+												<legend>Kontaktmöglichkeiten</legend>
+											  <div class="row">
+											  	<div class="small-6 columns">
+											        <label>Telefon Privat
+												          <input type="text" placeholder="E-Telefon Privat">
+											    	</label>		  		
+											  	</div>							  	
+											  	<div class="small-6 columns">
+											        <label>Handy
+												          <input type="text" placeholder="Handy">
+											    	</label>		  		
+											  	</div>
+											  </div>								
+											  <div class="row">
+											  	<div class="small-6 columns">
+											        <label>E-mail
+												          <input type="text" placeholder="E-Mail">
+											    	</label>		  		
+											  	</div>
+											  </div>
+											</fieldset>
+										</form>
+									</div>
+								</div>
+								<div class="row">
+									<div class="small-4 small-centered columns">
+										<a href="#panel3b" class="button demogSave">Speichern & weiter...</a>
+									</div>
+								</div>
+						    </div>
+						  </dd>
+					</div>
+					<div class="small-2 columns">
+				      <label for="checkbox2">Unvollständig</label>
+				      <label for="checkbox2" class="hidden">Vollständig</label>
+				      <input id="checkbox2" type="checkbox" readonly="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-10 columns">
+						  <dd class="accordion-navigation">
+						    <a href="#panel3b">Befund</a>
+						    <div id="panel3b" class="content">
+						      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						    </div>
+						  </dd>
+					</div>
+					<div class="small-2 columns">
+				      <label for="checkbox3">Unvollständig</label>
+				      <label for="checkbox3" class="hidden">Vollständig</label>
+				      <input id="checkbox3" type="checkbox" readonly="">
+					</div>
+				</div>
+			</dl>
+	</div>
+ </div>
+</div>
+
+
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

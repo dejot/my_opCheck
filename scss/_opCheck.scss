@@ -1,0 +1,35 @@
+
+.top-bar {
+	height: 124px;
+	.name {
+		height: 124px;
+		h1 { 
+
+			a {
+				display: block;
+				width: 143px;
+				height: 124px;
+				text-indent: -5000px;
+				background: transparent url('../images/logo.png') 0 0 no-repeat;
+			}
+			
+		}
+	}	
+}
+
+
+.accordion {
+	
+	dd {
+		border-bottom: 1px solid $iron;
+	}
+}
+
+.dotted { 
+	background-color: $iron;
+	height: 1px;
+ }
+
+ .hidden {
+ 	display: none;
+ }
