@@ -1,54 +1,21 @@
-
-.top-bar {
-	height: 124px;
-	.name {
-		height: 124px;
-		h1 { 
-
-			a {
-				display: block;
-				width: 143px;
-				height: 124px;
-				text-indent: -5000px;
-				background: transparent url('../images/logo.png') 0 0 no-repeat;
-			}
-			
-		}
-	}	
-}
-
-
+// -dj - accordion Anpassungen für opCheck
 .accordion {
-	
 	dd {
 		border-bottom: 1px solid $iron;
-
 		&:last-of-type {
 			border-bottom: 0;
-
-		.content {
-			background: transparent;
-			background-image: none !important; 
-		}	
+			.content {
+				background: transparent;
+				background-image: none !important; 
+			}	
 		}
 	}
-
 	.content {
 		padding-left: 50px !important;
 		background: transparent url('../images/backgrounds/pathLead.png') 18px 0 repeat-y !important;
 	}
-
 }
-
-.dotted { 
-	background-color: $iron;
-	height: 1px;
- }
-
- .hidden {
- 	display: none;
- }
-
+// -dj - iconstep war ursprünglich für die Indikatoren gedacht um anzuzeigen wo im Prozess ich mich befinde
 .iconStep {
 	display: inline-block;
 	vertical-align: middle;
@@ -67,21 +34,8 @@
 	&.active {
 		background-color: #99d6c4;
 	}
-
-//	&:after {
-//	  content: "";
-//	  position: absolute;
-//	  height: 1px;
-//	  border-top: 2px solid #9e9890;
-//	  top: 25px;
-//	  width: 600px;
-//	}
-}
-
-//.empfehlung {
-//	border-left: 1px dotted $iron;
-//}
-
+}	
+// -dj - forminfo ist für die Informationseinblendung auf der Seite, in jedem Bereich des Formulars (im Akkordeon)
 .formInfo {
 	p {
 		font-size: .875em;

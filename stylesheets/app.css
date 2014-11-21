@@ -9057,54 +9057,26 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 2, ../scss/_opCheck.scss */
-.top-bar {
-  height: 124px;
-}
-/* line 4, ../scss/_opCheck.scss */
-.top-bar .name {
-  height: 124px;
-}
-/* line 8, ../scss/_opCheck.scss */
-.top-bar .name h1 a {
-  display: block;
-  width: 143px;
-  height: 124px;
-  text-indent: -5000px;
-  background: transparent url("../images/logo.png") 0 0 no-repeat;
-}
-
-/* line 23, ../scss/_opCheck.scss */
+/* line 3, ../scss/_opCheck.scss */
 .accordion dd {
   border-bottom: 1px solid #cccccc;
 }
-/* line 26, ../scss/_opCheck.scss */
+/* line 5, ../scss/_opCheck.scss */
 .accordion dd:last-of-type {
   border-bottom: 0;
 }
-/* line 29, ../scss/_opCheck.scss */
+/* line 7, ../scss/_opCheck.scss */
 .accordion dd:last-of-type .content {
   background: transparent;
   background-image: none !important;
 }
-/* line 36, ../scss/_opCheck.scss */
+/* line 13, ../scss/_opCheck.scss */
 .accordion .content {
   padding-left: 50px !important;
   background: transparent url("../images/backgrounds/pathLead.png") 18px 0 repeat-y !important;
 }
 
-/* line 43, ../scss/_opCheck.scss */
-.dotted {
-  background-color: #cccccc;
-  height: 1px;
-}
-
-/* line 48, ../scss/_opCheck.scss */
-.hidden {
-  display: none;
-}
-
-/* line 52, ../scss/_opCheck.scss */
+/* line 19, ../scss/_opCheck.scss */
 .iconStep {
   display: inline-block;
   vertical-align: middle;
@@ -9120,12 +9092,12 @@ th.hide-for-touch {
   background: #fff;
   margin: -2px 10px 0 0;
 }
-/* line 67, ../scss/_opCheck.scss */
+/* line 34, ../scss/_opCheck.scss */
 .iconStep.active {
   background-color: #99d6c4;
 }
 
-/* line 86, ../scss/_opCheck.scss */
+/* line 40, ../scss/_opCheck.scss */
 .formInfo p {
   font-size: .875em;
   line-height: 1.2em;
